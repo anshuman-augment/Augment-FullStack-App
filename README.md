@@ -1,11 +1,11 @@
-# TO RUN THE PROJECT FROM /frontend
+# TO RUN THE PROJECT FROM /backend
 
 *SETUP*
 - Ensure you have `node.js` and `npm` installed.
 - Check the version of node using `node --version`
 - If node version is <18, updated node using `nvm install 20` and switch to the new version using `nvm use 20`
 - Install the latest version of Angular using `npm install -g @angular/cli`
-- Install the latest version of json-server using `npm install express cors mongoose dotenv`
+- Install the necessary dependencies in **backend** using `npm install express cors mongoose dotenv`
 
 *DEPLOY*
 - In an open Terminal, switch to the **frontend** directory and run `ng serve`. This should build and deploy the Angular app on localhost.
