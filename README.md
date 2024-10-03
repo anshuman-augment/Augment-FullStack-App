@@ -5,9 +5,9 @@ This repo stores a full stack project using Angular for the frontend and an Expr
 The branches represent different stages/demos:
 
 - `main` - Contains the completed application, with a functioning Express server, server-side security, authentication & login guardrails for the front-end, and some debug logs. WILL CONTINUOUSLY BE ADDED UPON.
-- `frontend` - Starting point of the application, with a basic frontend using a local DB and json-server. Walk through for this branch would be setting up a 'Search' feature with Augment. TO BE ADDED
-- `dependencies` - Contains the updated dependencies package.json, using Augment Code recommendations
-- `backend` - The completed Express server for the backend, integrated with the frontend. TO BE ADDED
+- `frontend` - Starting point of the application, with a basic frontend using a local DB and json-server. Walk through for this branch would be setting up a 'Search' feature with Augment.
+- `dependencies` - Contains the updated dependencies package.json, using Augment Code recommendations. TO BE ADDED.
+- `backend` - The completed Express server for the backend, integrated with the frontend.
 - `mongoDB` - The completed integration of mongoDB with the backend. TO BE ADDED
 - `backend-security` - Completed security for the Express server using authN and authZ, including the creation of JWTs and tokenization methods, along with RBAC for certain API endpoints. TO BE ADDED
 - `frontend-security` - Adds upon backend-security branch to implement a login portal, along with auth-based guardrails for site routing. TO BE ADDED
