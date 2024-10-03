@@ -6,7 +6,7 @@ import { HousingLocation } from './housinglocation';
 })
 export class HousingService {
 
-  url = 'http://localhost:3000/locations';
+  url = 'http://localhost:3000/api/locations';
 
   async getAllHousingLocations(): Promise<HousingLocation[]> {
     const data = await fetch(this.url);
