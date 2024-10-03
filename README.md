@@ -5,16 +5,23 @@
 - Create a new project (if you don't have one already).
 - Click "Build a Database" and choose the free shared cluster option.
 - Select your preferred cloud provider and region, then click "Create Cluster".
+
+
 *Set up database access:*
+
 - In the security menu, click "Database Access"
 - Add a new database user with a username and password
 - Give this user "Read and write to any database" permissions
+
 *Set up network access:*
+
 - In the security menu, click "Network Access"
 - Click "Add IP Address"
 - For development purposes, you can allow access from anywhere by entering 0.0.0.0/0
 - Note: For production, you should restrict this to your application's IP
+  
 *Get your connection string:*
+
 - Go back to your cluster view and click "Connect"
 - Choose "Connect your application"
 - Copy the connection string
