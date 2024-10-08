@@ -11,7 +11,7 @@ The branches represent different stages/demos:
 - `mongoDB` - The completed integration of mongoDB with the backend. 
 - `backend-security` - Completed security for the Express server using authN and authZ, including the creation of JWTs and tokenization methods, along with RBAC for certain API endpoints. 
 - `frontend-security` - Adds upon backend-security branch to implement a login portal, along with auth-based guardrails for site routing. TO BE ADDED
-- `graphQL` - Process of converting backend from REST to GraphQL API usage.
+- `graphQL` - Converting backend from REST to GraphQL API usage.
 
 *YOUTUBE SERIES TO FOLLOW ALONG WILL BE ADDED SOON*
 
