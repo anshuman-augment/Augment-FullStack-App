@@ -11,10 +11,11 @@ The branches represent different stages/demos:
 - `mongoDB` - The completed integration of mongoDB with the backend. 
 - `backend-security` - Completed security for the Express server using authN and authZ, including the creation of JWTs and tokenization methods, along with RBAC for certain API endpoints. 
 - `frontend-security` - Adds upon backend-security branch to implement a login portal, along with auth-based guardrails for site routing. TO BE ADDED
+- `graphQL` - The completed updated integration of GraphQL with the backend, instead of using REST.
 
 *YOUTUBE SERIES TO FOLLOW ALONG WILL BE ADDED SOON*
 
-# TO RUN THE PROJECT FROM /main
+# TO RUN THE PROJECT FROM /graphQL
 
 *SETUP*
 - Ensure you have `node.js` and `npm` installed.
@@ -23,9 +24,7 @@ The branches represent different stages/demos:
 - Install the latest version of Angular using `npm install -g @angular/cli`
 
 *DEPLOY*
-- In an open Terminal, switch to the **frontend** directory and run `ng serve`. This should build and deploy the Angular app on localhost.
-- If there are any issues, you may try `npm install` or `npm install --legacy-peer-deps`. Also ensure you are on Node v20
-
-
-- In a separate Terminal, switch to the **backend** directory and run `node server.js`. This should build and deploy the Express server on localhost.
+- In a new Terminal, switch to the **backend** directory and run `node server.js`. This should build and deploy the Express server on localhost using GraphQL.
 - If there are any issues, you may try `npm install` to update the package-lock.json and restart the server.
+- In a new Terminal, run a curl command to test if server responses are expected/working. 
+
