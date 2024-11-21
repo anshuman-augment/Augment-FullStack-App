@@ -13,7 +13,7 @@ The branches represent different stages/demos:
 - `frontend-security` - Adds upon backend-security branch to implement a login portal, along with auth-based guardrails for site routing. TO BE ADDED
 - `graphQL` - Converting backend from REST to GraphQL API usage.
 
-*YOUTUBE SERIES TO FOLLOW ALONG WILL BE ADDED SOON*
+*Follow along on the logic flow & questions/responses to see the changes made between stages of the project in 'FullStackApp_AugmentCode_Readout.pdf'*
 
 # TO RUN THE PROJECT FROM /main
 
