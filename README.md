@@ -1,4 +1,4 @@
-# Customize a Full Stack Application using [Augment Code](https://wwww.augmentcode.com)
+# Customize a Full Stack Application using [Augment Code](https://www.augmentcode.com)
 
 
 This repo stores a full stack project using Angular for the frontend and an Express server as the backend.
